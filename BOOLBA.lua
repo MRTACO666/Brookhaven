@@ -16,7 +16,7 @@ OrionLib:MakeNotification({
 local Window = OrionLib:MakeWindow({Name = "Beast Script | Brookhaven", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroEnabled = true})
 local Tab = Window:MakeTab({
 	Name = "Avatar",
-	Icon = "rbxassetid://17372117152"	
+	Icon = "rbxassetid://4483345998"	
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
