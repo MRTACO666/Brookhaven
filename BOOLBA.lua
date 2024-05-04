@@ -10,7 +10,7 @@ OrionLib:MakeNotification({
 OrionLib:MakeNotification({
 	Name = "Beast Script | Brookhaven",
 	Content = "Загрузка...",
-	Image = "rbxassetid://17246732607",
+	Image = "rbxassetid://17372117152",
 	Time = 25
 })
 local Window = OrionLib:MakeWindow({Name = "Beast Script | Brookhaven", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroEnabled = true})
