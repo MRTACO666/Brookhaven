@@ -2,29 +2,29 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
-	Name = "Credits",
-	Content = "Тг канал Beast Script",
-	Image = "rbxassetid://17372117152",
-	Time = 17
+    Name = "Credits",
+    Content = "Тг канал Beast Script",
+    Image = "rbxassetid://17372117152",
+    Time = 17
 })
 OrionLib:MakeNotification({
-	Name = "Beast Script | Brookhaven",
-	Content = "Загрузка...",
-	Image = "rbxassetid://17372117152",
-	Time = 25
+    Name = "Beast Script | Brookhaven",
+    Content = "Загрузка...",
+    Image = "rbxassetid://17372117152",
+    Time = 25
 })
 local Window = OrionLib:MakeWindow({Name = "Beast Script | Brookhaven", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroEnabled = true})
 local Tab = Window:MakeTab({
-	Name = "Avatar",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+    Name = "Avatar",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Avatar Rico"
+    Name = "Avatar Rico"
 })
 Tab:AddButton({
-	Name = "Korblox e headless (Tire todos os acessorios)",
-	Callback = function()
+    Name = "Korblox e headless (Tire todos os acessorios)",
+    Callback = function()
 --manoh
 
 local args = {
@@ -53,12 +53,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end
 })
 local Section = Tab:AddSection({
-	Name = "head"
+    Name = "head"
 })
 Tab:AddButton({
-	Name = "Headless",
-	Callback = function()
-      		local args = {
+    Name = "Headless",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -72,15 +72,15 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 local Section = Tab:AddSection({
-	Name = "Perna Esquerda"
+    Name = "Perna Esquerda"
 })
 Tab:AddButton({
-	Name = "Korblox",
-	Callback = function()
-      		local args = {
+    Name = "Korblox",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -94,12 +94,12 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 Tab:AddButton({
-	Name = "Perna de Gelo",
-	Callback = function()
-      		local args = {
+    Name = "Perna de Gelo",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -113,15 +113,15 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 local Section = Tab:AddSection({
-	Name = "Perna Direita"
+    Name = "Perna Direita"
 })
 Tab:AddButton({
-	Name = "Korblox",
-	Callback = function()
-      		local args = {
+    Name = "Korblox",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -135,12 +135,12 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 Tab:AddButton({
-	Name = "Perna De Gelo",
-	Callback = function()
-      		local args = {
+    Name = "Perna De Gelo",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -154,15 +154,15 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 local Section = Tab:AddSection({
-	Name = "Personagens"
+    Name = "Personagens"
 })
 Tab:AddButton({
-	Name = "The Overseer",
-	Callback = function()
-	local args = {
+    Name = "The Overseer",
+    Callback = function()
+    local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 81725326,
@@ -179,9 +179,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end
 })
 Tab:AddButton({
-	Name = "Gangue das batatas Fritas",
-	Callback = function()
-	local args = {
+    Name = "Gangue das batatas Fritas",
+    Callback = function()
+    local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 5392155773,
@@ -198,9 +198,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end
 })
 Tab:AddButton({
-	Name = "Korblox",
-	Callback = function()
-      		local args = {
+    Name = "Korblox",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 139607770,
@@ -214,12 +214,12 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 Tab:AddButton({
-	Name = "Cavaleiro Gelado",
-	Callback = function()
-      		local args = {
+    Name = "Cavaleiro Gelado",
+    Callback = function()
+              local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -233,26 +233,26 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
-  	end    
+      end    
 })
 local Section = Tab:AddSection({
-	Name = "Dominus"
+    Name = "Dominus"
 })
 Tab:AddButton({
-	Name = "Dominus Frigidus",
-	Callback = function()
+    Name = "Dominus Frigidus",
+    Callback = function()
     local args = {
     [1] = "wear",
     [2] = 48545806
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-  	end    
+      end    
 })
 Tab:AddButton({
 Name = "Dominus infernus",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 31101391
 }
@@ -262,8 +262,8 @@ end
 })
 Tab:AddButton({
 Name = "Dominus Empyreus",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 64444871
 }
@@ -273,8 +273,8 @@ end
 })
 Tab:AddButton({
 Name = "Dominus Empyreus",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 21070012
 }
@@ -284,8 +284,8 @@ end
 })
 Tab:AddButton({
 Name = "Dominus Astra",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 162067148
 }
@@ -294,12 +294,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 end    
 })
 local Section = Tab:AddSection({
-	Name = "Valk"
+    Name = "Valk"
 })
 Tab:AddButton({
 Name = "Valk Violeta",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 1402432199
 }
@@ -309,8 +309,8 @@ end
 })
 Tab:AddButton({
 Name = "Valk Esmeralda",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 2830437685
 }
@@ -320,8 +320,8 @@ end
 })
 Tab:AddButton({
 Name = "Valk Gelo",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 4390891467
 }
@@ -331,8 +331,8 @@ end
 })
 Tab:AddButton({
 Name = "Valk Hora do Brilho",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 1180433861
 }
@@ -341,12 +341,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 end    
 })
 local Section = Tab:AddSection({
-	Name = "Horror skins {Feito Por mi}"
+    Name = "Horror skins {Feito Por mi}"
 })
 Tab:AddButton({
 Name = "Jeff The killer",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 14502327402
 }
@@ -356,8 +356,8 @@ end
 })
 Tab:AddButton({
 Name = "Mario Victim 1",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 14732524763
 }
@@ -367,8 +367,8 @@ end
 })
 Tab:AddButton({
 Name = "Jermas Eyes",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 14817978441
 }
@@ -378,8 +378,8 @@ end
 })
 Tab:AddButton({
 Name = "Eyes",
-	Callback = function()
-	local args = {
+    Callback = function()
+    local args = {
     [1] = "wear",
     [2] = 14701936208
 }
@@ -388,17 +388,17 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 end    
 })
 local Tab = Window:MakeTab({
-	Name = "Car",
-	Icon = "rbxassetid://7733708835",
-	PremiumOnly = false
+    Name = "Car",
+    Icon = "rbxassetid://7733708835",
+    PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Spawn Truck"
+    Name = "Spawn Truck"
 })
 Tab:AddButton({
 Name = "Truck",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PickingCar",
     [2] = "Semi"
 }
@@ -429,12 +429,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Cemeter1y"):FireServer(
      end
 })
 local Section = Tab:AddSection({
-	Name = "Music (Gamepass)"
+    Name = "Music (Gamepass)"
 })
 Tab:AddButton({
 Name = "Grito De Tortura",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PickingCarMusicText",
     [2] = "147758746"
 }
@@ -445,7 +445,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sCa1r"):FireServ
 Tab:AddButton({
 Name = "Grito funny (Atumalaka)",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PickingCarMusicText",
     [2] = "9094639541"
 }
@@ -456,7 +456,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sCa1r"):FireServ
 Tab:AddButton({
 Name = "Sirene",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PickingCarMusicText",
     [2] = "530137633"
 }
@@ -465,12 +465,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sCa1r"):FireServ
    end
 })
 local Section = Tab:AddSection({
-	Name = "Cars Spawn"
+    Name = "Cars Spawn"
 })
 Tab:AddButton({
 Name = "Car Smart",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PickingCar",
     [2] = "SmartCar"
 }
@@ -481,7 +481,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Ca1r"):FireServer(unpac
 Tab:AddButton({
 Name = "Car Smart",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PickingCar",
     [2] = "SmartCar"
 }
@@ -491,17 +491,17 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Ca1r"):FireServer(unpac
 })
 
 local Tab = Window:MakeTab({
-	Name = "House",
-	Icon = "rbxassetid://7733960981",
-	PremiumOnly = false
+    Name = "House",
+    Icon = "rbxassetid://7733960981",
+    PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "House"
+    Name = "House"
 })
 Tab:AddButton({
 Name = "Excluir Casa",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "PlayerSellHouse"
 }
 
@@ -509,12 +509,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sHous1eChoic1e")
    end
 })
 local Section = Tab:AddSection({
-	Name = "House Config"
+    Name = "House Config"
 })
 Tab:AddButton({
 Name = "Abrir/Fechar Janelas",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "Curtains"
 }
 
@@ -524,7 +524,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sHous1e"):FireSe
 Tab:AddButton({
 Name = "Trancar/Destrancar Portas",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "LockDoors"
 }
 
@@ -534,7 +534,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sHous1e"):FireSe
 Tab:AddButton({
 Name = "Abrir/Fechar Garagem",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "GarageDoor"
 }
 
@@ -542,12 +542,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Player1sHous1e"):FireSe
    end
 })
 local Section = Tab:AddSection({
-	Name = "Bio House"
+    Name = "Bio House"
 })
 Tab:AddButton({
 Name = "SCR1PT3'S IN SERVER",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "BusinessName",
     [2] = "SCR1PT3'S IN SERVER"
 }
@@ -556,19 +556,19 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPHous1eEven1t"):FireSe
    end
 })
 local Tab = Window:MakeTab({
-	Name = "Trolling",
-	Icon = "rbxassetid://7734053426",
-	PremiumOnly = false
+    Name = "Trolling",
+    Icon = "rbxassetid://7734053426",
+    PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "KILL'S"
+    Name = "KILL'S"
 })
 Tab:AddButton({
 Name = "KILL ALL (Sofa e pego automaticamente)",
      Callback = function()
-	--Couch Item
-	
-	local args = {
+    --Couch Item
+    
+    local args = {
     [1] = "PickingTools",
     [2] = "Couch"
 }
@@ -583,9 +583,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
 Tab:AddButton({
 Name = "KILL (SofÃ¡ e pego automÃ¡ticamente)",
      Callback = function()
-	--Couch Item
-	
-	local args = {
+    --Couch Item
+    
+    local args = {
     [1] = "PickingTools",
     [2] = "Couch"
 }
@@ -606,12 +606,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServ
 end
 })
 local Section = Tab:AddSection({
-	Name = "Super Pequeno"
+    Name = "Super Pequeno"
 })
 Tab:AddButton({
 Name = "Ficar Pequeno",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "CharacterSizeDown",
     [2] = 4
 }
@@ -622,7 +622,7 @@ end
 Tab:AddButton({
 Name = "Voltar ao Tamanho",
      Callback = function()
-	local args = {
+    local args = {
     [1] = "CharacterSizeUp",
     [2] = 1
 }
@@ -631,7 +631,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(u
 end
 })
 local Section = Tab:AddSection({
-	Name = "Enganar Players (Troll)"
+    Name = "Enganar Players (Troll)"
 })
 Tab:AddButton({
 Name = "Virar palhaÃ§o",
@@ -715,14 +715,14 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end
 })
 local Section = Tab:AddSection({
-	Name = "others"
+    Name = "others"
 })
 Tab:AddButton({
 Name = "Deseja Virar um assasino?",
-	Callback = function()
-	--Assain
+    Callback = function()
+    --Assain
 
-	local args = {
+    local args = {
     [1] = "wear",
     [2] = 15133320948
 }
@@ -732,10 +732,10 @@ end
 })
 Tab:AddButton({
 Name = "Deseja Virar uma bactÃ©ria?",
-	Callback = function()
-	--Assain
+    Callback = function()
+    --Assain
 
-	local args = {
+    local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 14731377941,
@@ -784,12 +784,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 end
 })
 local Tab = Window:MakeTab({
-	Name = "Tools",
-	Icon = "rbxassetid://7733955511",
-	PremiumOnly = false
+    Name = "Tools",
+    Icon = "rbxassetid://7733955511",
+    PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "tools"
+    Name = "tools"
 })
 Tab:AddButton({
 Name = "Pegar Crystais",
@@ -797,7 +797,7 @@ Name = "Pegar Crystais",
      
      --v2
      
-	local args = {
+    local args = {
     [1] = "PickingTools",
     [2] = "Crystal"
 }
@@ -826,12 +826,12 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 end
 })
 local Tab = Window:MakeTab({
-	Name = "Animations",
-	Icon = "rbxassetid://7733752630",
-	PremiumOnly = false
+    Name = "Animations",
+    Icon = "rbxassetid://7733752630",
+    PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Princess"
+    Name = "Princess"
 })
 Tab:AddButton({
 Name = "Correndo",
@@ -867,7 +867,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 end
 })
 local Section = Tab:AddSection({
-	Name = "Patrol"
+    Name = "Patrol"
 })
 Tab:AddButton({
 Name = "Parado",
