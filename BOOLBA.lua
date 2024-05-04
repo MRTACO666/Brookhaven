@@ -5,13 +5,13 @@ OrionLib:MakeNotification({
     Name = "Credits",
     Content = "Тг канал Beast Script",
     Image = "rbxassetid://17372117152",
-    Time = 17
+    Time = 10
 })
 OrionLib:MakeNotification({
     Name = "Beast Script | Brookhaven",
     Content = "Загрузка...",
     Image = "rbxassetid://17372117152",
-    Time = 25
+    Time = 10
 })
 local Window = OrionLib:MakeWindow({Name = "Beast Script | Brookhaven", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroEnabled = true})
 local Tab = Window:MakeTab({
